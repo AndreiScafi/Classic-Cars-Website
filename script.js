@@ -33,5 +33,21 @@ document.querySelectorAll('.wrapper').forEach((item) => {
 
 /*End of  Menu */
 
+/* Section 3 videos */
+
+const videos = document.querySelectorAll('.video');
+
+videos.forEach((video) => {
+    video.addEventListener('mouseover', () => {
+        video.play();
+    })
+
+    video.addEventListener('mouseout', () => {
+        video.pause();
+    })
+})
+
+/* End of Section 3 videos */
+
 
 /* End of Teacher code */
